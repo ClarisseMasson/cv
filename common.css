@@ -64,19 +64,21 @@ h2 {
 
 header {
     display: flex;
-    align-items: center;
-    background-color: #00695c;
-    height: 25%;
+    /*flex-wrap: wrap;*/
+    align-items: stretch;
+    background-color: white;
 }
 
 #portrait {
     display: flex;
     flex-wrap: wrap;
     background-color: #00695c;
-    width: 20%;
+    /*width: 20%;*/
     min-width: 150px;
     justify-content: center;
     align-items: center;
+    /*padding-bottom:4%;
+    padding-top: 4%;*/
 }
 
 #portrait img {
@@ -91,10 +93,10 @@ header {
 
 #identite {
     display: flex;
-    padding-left: 4%;
+    padding: 4%;
     background-color: white;
     height: 100%;
-    width: 80%;
+    /*width: 80%;*/
     align-items: center;
 }
 
@@ -109,7 +111,7 @@ aside {
     display: flex;
     background-color: #00695c;
     flex-direction: column;
-    width: 20%;
+    /*width: 20%;*/
     min-width: 150px;
     color: #00695c;
     text-align: center;
@@ -162,7 +164,7 @@ i:before {
 section {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    /*width: 80%;*/
     padding-left: 4%;
     padding-right: 4%;
 }

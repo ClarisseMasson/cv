@@ -1,0 +1,17 @@
+#portrait, aside, #identite, section {
+    width: 100%;
+}
+
+header {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#identite {
+    padding: 4%;
+}
+
+#portrait {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}

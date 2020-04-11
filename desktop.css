@@ -1,0 +1,14 @@
+
+
+#portrait, aside {
+    width: 20%;
+}
+
+#identite, section {
+    width: 80%;
+}
+
+#portrait {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}

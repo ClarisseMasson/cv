@@ -1,0 +1,13 @@
+/*pour les écrans les tablettes on élargit le menu gauche*/
+	#portrait, aside {
+		width: 30%;
+	}
+
+	#identite, section {
+		width: 70%;
+	}
+
+#portrait {
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
