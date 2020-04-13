@@ -1,23 +1,42 @@
+/*
+    +----------------------+
+    | Adaptation STRUCTURE |
+    +----------------------+
+*/
+
+/*en mobile en pass en une seule colonne*/
 #portrait, aside, #identite, section {
         width: 100%;
     }
 
-    header {
-        flex-wrap: wrap;
-        height: auto;
-    }
+/*On passe le header en colonne pour avoir la photo puis le titre*/
+header {
+    flex-wrap: wrap;
+    height: auto;
+}
 
-    #identite {
-        padding: 4%;
-    }
+/*aside passe à la fin parce qu'il est moins important */
+main {
+    flex-direction: column-reverse;
+}
 
-    #portrait {
-        padding-bottom: 4%;
-        padding-top: 4%;
-    }
+
+
+/*
+    +---------------------+
+    | Adaptation VISUELLE |
+    +---------------------+
+*/
+
+/*Changement taille texte et marge*/
 h1 {
-    font-size : 8em;
-    line-height : 1.1em;
+    font-size: 8em;
+    line-height: 1.1em;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 4em;
 }
 
 span {
@@ -25,25 +44,29 @@ span {
     line-height: 1em;
 }
 
-h2 {
-    font-size: 4em;
+p, li {
+    font-size: 3em;
 }
 
 hr {
     border-top: 0.5em solid #00695c;
 }
 
-p, li {
-    font-size: 3em;
+#identite {
+    padding: 4%;
 }
+
+#portrait {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
 
 article {
     margin-top: 4%;
     margin-bottom : 4%;
 }
-main {
-    flex-direction:column-reverse;
-}
+
 
 aside i {
     font-size: 6.2em;

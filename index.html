@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>P2_Clarisse_Masson</title>
+    <!-- On applique un css commun pour tous les formats-->
     <link rel="stylesheet" href="common.css">
+    <!-- CSS spécifique pour les différents formats -->
     <link rel="stylesheet" media="screen and (min-device-width: 1px) and (max-device-width: 812px)" href="mobile.css">
     <link rel="stylesheet" media="screen and (min-device-width: 813px) and (max-device-width : 1279px)" href="tablet.css">
     <link rel="stylesheet" media="screen and (min-device-width: 1280px)" href="desktop.css">
@@ -13,49 +15,54 @@
 
 </head>
 <body>
-    <header><!--bandeau du haut avec la phot et l'identité-->
+    <header><!--HEADER : photo et titre-->
         <div id="portrait">
             <img src="./img/portrait.jpg" alt="photo" />
         </div>
         <div id="identite">
-            <div><!--sert à centrer le block sur la hauteur-->
+            <div>
                 <h1><strong>Clarisse</strong> Masson</h1>
                 <span>Développeuse web freelance</span>
                 <hr />
             </div>
         </div>
     </header>
+
+
     <main>
-        <aside><!--informations vertes à gauche-->
+        
+        <!--MENU GAUCHE-->
+        <aside>
             <div id="contact">
                 <h2>Contact</h2>
                 <ul>
                     <li>
-                        Adresse
-                        </br>Paris, France
+                        Adresse</br>
+                        Paris, France
                     </li>
                     <li>
-                        Téléphone
-                        </br>06 00 00 00 00
+                        Téléphone</br>
+                        06 00 00 00 00
                     </li>
                     <li>
-                        Email
-                        </br>nom@email.com
+                        Email</br>
+                        nom@email.com
                     </li>
                     <li>
-                        Site web
-                        </br>www.name.com
+                        Site web</br>
+                        www.name.com
                     </li>
                     <li>
-                        Skype
-                        </br>@nom dutilisateur
+                        Skype</br>
+                        @nom dutilisateur
                     </li>
                 </ul>
             </div>
             <div id="propos">
                 <h2>À propos</h2>
                 <p>
-                    Cea qui accuptus ilias et verume vel eatibus evenet utet alibus, sita sim ratiae magnitatur? Mus exerum eatest veri officium inciis eturion estia dolentest dolum vente cus.                   
+                    Cea qui accuptus ilias et verume vel eatibus evenet utet alibus, sita sim ratiae magnitatur? Mus exerum eatest veri
+                    officium inciis eturion estia dolentest dolum vente cus.
                 </p>
             </div>
             <div id="loisirs">
@@ -68,20 +75,22 @@
             </div>
         </aside>
 
+        <!--CONTENU PRINCIPAL : Formation, expériences et redcommandations-->
         <section>
-            <!--infos principales-->
+            <!--FORMATION-->
             <article id="formation">
-                <!--FORMATION-->
                 <div class="picto_titre">
                     <!--titre formation avec picto-->
                     <i class="fas fa-graduation-cap"></i>
                     <h2>Formation</h2>
                 </div>
                 <div class="date_description">
+                    <!--1ere formation-->
                     <ul>
                         <li>
-                            <i class="far fa-dot-circle"></i><!--1ere formation-->
-                            Depuis mars 2020<br />Nantes
+                            <i class="far fa-dot-circle"></i>
+                            Depuis mars 2020<br />
+                            Nantes
                         </li>
                     </ul>
                     <div class="description">
@@ -89,7 +98,7 @@
                         <strong>Junior Web Developper</strong>
                         <p>
                             Iqui digenis illam secum res ea consedi pitatest aut quam qui conseque sequi qui commoluptat ommos et maximpostis nalui nihicatiur as quia inctio endamenecto
-                            temporpor autem non praturi atissim olorpor errumquid mi, earum re
+                            temporpor autem non praturi atissim olorpor errumquid mi, earum re.
                         </p>
                     </div>
                 </div>
@@ -98,7 +107,8 @@
                     <ul>
                         <li>
                             <i class="fas fa-circle"></i>
-                            2010 - 2013<br />Nantes
+                            2010 - 2013<br />
+                            Nantes
                         </li>
                     </ul>
                     <div class="description">
@@ -112,17 +122,18 @@
                 </div>
             </article>
 
+            <!--EXPERIENCES-->
             <article id="experiences">
-                <!--EXPERIENCES-->
                 <div class="picto_titre">
                     <!--titre Experiences avec picto-->
                     <i class="fas fa-briefcase"></i>
                     <h2>Expériences professionnelles</h2>
                 </div>
                 <div class="date_description">
+                    <!--1ere experience-->
                     <ul>
                         <li>
-                            <i class="far fa-dot-circle"></i><!--1ere experience-->
+                            <i class="far fa-dot-circle"></i>
                             Septembre 2017 - Poste actuel<br /> Nantes
                         </li>
                     </ul>
@@ -135,7 +146,7 @@
                     </div>
                 </div>
                 <div class="date_description">
-                    <!--2eme formation-->
+                    <!--2eme experiences-->
                     <ul>
                         <li>
                             <i class="fas fa-circle"></i>
@@ -152,10 +163,10 @@
                 </div>
             </article>
 
+            <!--RECOMMANDATIONS-->
             <article id="recommandations">
-                <!--RECOMMANDATIONS-->
+                <!--titre recommandations avec picto-->
                 <div class="picto_titre">
-                    <!--titre recommandations avec picto-->
                     <i class="fas fa-pencil-alt"></i>
                     <h2>recommandations</h2>
                 </div>
@@ -183,8 +194,8 @@
                     <div class="telephone_recommandation">Téléphone : 06 XX XX XX XX</div>
                     <div class="mail_recommandation">Email : name@email.com</div>
                 </div>
-
-</section>
+            </article>
+        </section>
 
 
     </main>

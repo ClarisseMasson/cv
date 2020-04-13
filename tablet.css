@@ -1,4 +1,11 @@
-/*pour les écrans les tablettes on élargit le menu gauche*/
+/*
+    +----------------------+
+    | Adaptation STRUCTURE |
+    +----------------------+
+*/
+
+
+/*pour les écrans des tablettes on élargit le menu gauche*/
 	#portrait, aside {
 		width: 30%;
 	}

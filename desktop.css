@@ -1,5 +1,12 @@
 
+/*
+    +----------------------+
+    | Définition STRUCTURE |
+    +----------------------+
+*/
 
+
+/*Définition pour écran d'ordinateur de la taille menu gauche*/
 #portrait, aside {
     width: 20%;
 }
