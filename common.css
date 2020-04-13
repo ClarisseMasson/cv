@@ -104,7 +104,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    height: 75%;
+    /*height: 75%;*/
 }
 
 aside {
@@ -149,7 +149,7 @@ aside i {
     font-size: 1.5em;
     height: 2em;
     width: 2em;
-    vertical-align: middle;
+    vertical-align: baseline;
     border: 0.1em solid white;
     border-radius: 100%;
     padding: 1%;
@@ -187,7 +187,7 @@ article {
     color: #00695c;
     font-size: 1.8em;
     padding-right: 0.4em;
-    vertical-align : super;
+    vertical-align : middle;
     }
 
 .date_description {
@@ -220,22 +220,25 @@ article ul {
     color: #666666;
 }
 
-.description span {
-    font-size: larger;
-    padding-bottom: 2%;
-    }
 
-.description p, .description strong {
-    color: #666666;
-    font-size: medium;
-    font-weight: normal;
-    padding-bottom: 2%;
-    }
+
+.description strong, .description p {
+        color: #666666;
+        font-size: medium;
+        font-weight: normal;
+        padding-bottom: 2%;
+}
+
+.description span {
+        font-size: larger;
+        padding-bottom: 2%;
+}
+
 
 #recommandations {
     display: flex;
-    flex-direction : row;
-    justify-content :flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .recommandation {
