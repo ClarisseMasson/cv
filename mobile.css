@@ -1,25 +1,33 @@
 /*
-    +----------------------+
-    | Adaptation STRUCTURE |
-    +----------------------+
+    +-------------------------------+
+    | MOBILE : Adaptation STRUCTURE |
+    +-------------------------------+
 */
 
-/*en mobile en pass en une seule colonne*/
-#portrait, aside, #identite, section {
+@media screen and (min-device-width: 1px) and (max-device-width: 812px) {
+    /*en mobile en pass en une seule colonne*/
+    #portrait, aside, #identite, section, article ul, .description{
         width: 100%;
     }
 
-/*On passe le header en colonne pour avoir la photo puis le titre*/
-header {
-    flex-wrap: wrap;
-    height: auto;
-}
+    /*On passe le header en colonne pour avoir la photo puis le titre*/
+    header {
+        flex-wrap: wrap;
+        height: auto;
+    }
 
-/*aside passe à la fin parce qu'il est moins important */
-main {
-    flex-direction: column-reverse;
-}
+    /*la date et la décription de l'article passent en colonne pour plus de lisibilité */
+    .date_description {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
 
+    /*aside passe à la fin parce qu'il est moins important */
+    main {
+        flex-direction: column-reverse;
+    }
 
 
 /*
@@ -27,68 +35,87 @@ main {
     | Adaptation VISUELLE |
     +---------------------+
 */
+        /*Changement taille texte et marge*/
+    h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        margin-bottom: 2%;
+    }
 
-/*Changement taille texte et marge*/
-h1 {
-    font-size: 8em;
-    line-height: 1.1em;
-    margin-bottom: 2%;
-}
+    h2 {
+        font-size: 1.6em;
+        letter-spacing :0.04em;
+    }
 
-h2 {
-    font-size: 4em;
-}
+    h3 {
+        font-size: 1.5rem;
+        padding-top : 4%;
+    }
 
-span {
-    font-size:4.5em;
-    line-height: 1em;
-}
+    p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 
-p, li {
-    font-size: 3em;
-}
+    li {
+        font-size: 1.5rem;
+    }
 
-hr {
-    border-top: 0.5em solid #00695c;
-}
+    #identite {
+        padding: 4%;
+    }
 
-#identite {
-    padding: 4%;
-}
+    #portrait {
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
 
-#portrait {
-    padding-bottom: 4%;
-    padding-top: 4%;
-}
+    #profession em {
+        border-bottom-width: 0.25rem;
+    }
 
+    #profession {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+       
+    aside i {
+        font-size: 2.5em;
+        height: 2.3em;
+        width: 2.3em;
+        border: 0.1em solid white;
+        padding: 3%;
+    }
 
-article {
-    margin-top: 4%;
-    margin-bottom : 4%;
-}
+    article {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
 
+    .picto_titre {
+        border-bottom-width: 0.25rem;
+        margin-bottom: 4%;
+    }
 
-aside i {
-    font-size: 6.2em;
-    height: 2.5em;
-    width: 2.5em;
-    border: 0.1em solid white;
-    padding: 3%;
-}
+    .picto_titre i {
+        font-size: 1.8rem;
+        padding-right: 0.4em;
+    }
 
-.picto_titre {
-    border-bottom: 0.5em solid;
-    margin-bottom: 4%;
-}
+    article li, .description h3, .description strong, .description p, .recommandation {
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-bottom: 4%;
+        padding-right: 0%;
+        line-height: 2rem;
+    }
 
-.picto_titre i {
-    font-size: 4em;
-    padding-right: 0.4em;
-}
+    article li{
+        border-bottom : dotted 0.05rem grey;
+    }
 
-.description span, .description strong, .description p, .recommandation {
-    font-size: 3em;
-    text-align: justify;
-    padding-bottom: 4%;
+    .date_description i {
+        font-size: 1rem;
+    }
 }
 

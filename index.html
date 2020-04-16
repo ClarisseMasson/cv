@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <title>P2_Clarisse_Masson</title>
     <!-- On applique un css commun pour tous les formats-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="common.css">
-    <!-- CSS spécifique pour les différents formats -->
-    <link rel="stylesheet" media="screen and (min-device-width: 1px) and (max-device-width: 812px)" href="mobile.css">
-    <link rel="stylesheet" media="screen and (min-device-width: 813px) and (max-device-width : 1279px)" href="tablet.css">
-    <link rel="stylesheet" media="screen and (min-device-width: 1280px)" href="desktop.css">
+    <!-- CSS spécifique pour les formats mobiles-->
+    <link rel="stylesheet" href="mobile.css">
+    <!--<link rel="stylesheet" media="screen and (min-device-width: 813px) and (max-device-width : 1279px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 1280px)" href="desktop.css">-->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
-
 </head>
+
 <body>
     <header><!--HEADER : photo et titre-->
         <div id="portrait">
@@ -22,8 +23,8 @@
         <div id="identite">
             <div>
                 <h1><strong>Clarisse</strong> Masson</h1>
-                <span>Développeuse web freelance</span>
-                <hr />
+                <div id="profession"><em>Déve</em>loppeuse web freelance</div>
+                
             </div>
         </div>
     </header>
@@ -61,8 +62,9 @@
             <div id="propos">
                 <h2>À propos</h2>
                 <p>
-                    Cea qui accuptus ilias et verume vel eatibus evenet utet alibus, sita sim ratiae magnitatur? Mus exerum eatest veri
-                    officium inciis eturion estia dolentest dolum vente cus.
+                    Après des études de littérature et une fomartion de graphiste dans une école d'art réputée, j'ai souhaité me reconvertir dans le développement web.
+                    Ce métier m'attire car je recherche sans cesse l'innovation et les moyens de me dépasser chaque jour. Je veux pouvoir mettre à profit mon sens aigüe de l'organisation
+                    et satisfaire mon appétence pour le challenge.
                 </p>
             </div>
             <div id="loisirs">
@@ -82,7 +84,7 @@
                 <div class="picto_titre">
                     <!--titre formation avec picto-->
                     <i class="fas fa-graduation-cap"></i>
-                    <h2>Formation</h2>
+                    <h2>Formations</h2>
                 </div>
                 <div class="date_description">
                     <!--1ere formation-->
@@ -94,12 +96,12 @@
                         </li>
                     </ul>
                     <div class="description">
-                        <span>OPENCLASROOMS</span>
+                        <h3>Openclassrooms</h3>
                         <strong>Junior Web Developper</strong>
                         <p>
-                            Iqui digenis illam secum res ea consedi pitatest aut quam qui conseque sequi qui commoluptat ommos et maximpostis nalui nihicatiur as quia inctio endamenecto
-                            temporpor autem non praturi atissim olorpor errumquid mi, earum re.
-                        </p>
+                            En cours de formation pour devenir Développeuse Web. Grâce à celle-ci, je vais maitriser HTML, CSS et Javascript.
+                            Je pourrai animer des pages web avec CSS3, améliorer le réferencement de votre site, gérer les comptes utilisateurs
+                            et prendre en main le contenu de la base de données.</p>
                     </div>
                 </div>
                 <div class="date_description">
@@ -112,11 +114,12 @@
                         </li>
                     </ul>
                     <div class="description">
-                        <span>ÉCOLE PIVAUT</span>
+                        <h3>École Pivaut</h3>
                         <strong>Graphisme Publicitaire</strong>
                         <p>
-                            Iqui digenis illam secum res ea consedi pitatest aut quam qui conseque sequi qui commoluptat ommos et maximpostis nihicatiur as quia inctio endamenecto
-                            temporpor autem non praturi atissim olorpor errumquid mi, earum re
+                            Cette Formation m’a apportée non seulement de solides bases en dessins et en peinture mais aussi deq compétences en graphismes publicitaire.
+                            Je maitrise parfaitement la suite Adobe; photoshop, Indesign et Illustrator. Je oncrétise et met en page vos idées sur n’importe quel formats,
+                            du Flyer au Site Web. J’ai de plus une spécialisation en illustration si vous souhaitez un projet plus personnalisé.
                         </p>
                     </div>
                 </div>
@@ -138,10 +141,11 @@
                         </li>
                     </ul>
                     <div class="description">
-                        <span>LACROIX CITY</span>
+                        <h3>Lacroix city</h3>
                         <strong>Infographiste</strong>
                         <p>
-                            Mise en page et réalisation de panneaux conformes à la norme française. Création de signalitiques personnalisées. Participation à la communication interne
+                            Mise en page et réalisation de panneaux conformes à la norme française. Création de signalitiques personnalisées.
+                            Participation active à la communication interne et aux projets annexes.
                         </p>
                     </div>
                 </div>
@@ -154,7 +158,7 @@
                         </li>
                     </ul>
                     <div class="description">
-                        <span>DISTINCTIO</span>
+                        <h3>Distinctio</h3>
                         <strong>Infographiste</strong>
                         <p>
                             Création de médailles et d’insignes pour divers marathons et pour l’armée. Réalisation de trophées et autres récompenses.
