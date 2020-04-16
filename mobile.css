@@ -4,7 +4,7 @@
     +-------------------------------+
 */
 
-@media screen and (min-device-width: 1px) and (max-device-width: 812px) {
+@media screen and (min-width: 1px) and (max-width: 812px) {
     /*en mobile en pass en une seule colonne*/
     #portrait, aside, #identite, section, article ul, .description{
         width: 100%;
@@ -43,22 +43,26 @@
     }
 
     h2 {
-        font-size: 1.6em;
-        letter-spacing :0.04em;
+        font-size: 1.5em;
+        letter-spacing :0.02em;
+        padding-right: 0%;
+        padding-left: 0%;
+
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding-top : 4%;
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2rem;
     }
 
     li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
     }
 
     #identite {
@@ -99,23 +103,28 @@
 
     .picto_titre i {
         font-size: 1.8rem;
-        padding-right: 0.4em;
+        padding-right: 3%;
     }
 
-    article li, .description h3, .description strong, .description p, .recommandation {
-        font-size: 1.5rem;
+    .description h3, .description strong, .recommandation {
+        font-size: 1.3rem;
         text-align: justify;
         padding-bottom: 4%;
-        padding-right: 0%;
         line-height: 2rem;
     }
 
-    article li{
-        border-bottom : dotted 0.05rem grey;
+    article li {
+        padding-bottom: 2%;
+        padding-right: 0%;
     }
 
     .date_description i {
         font-size: 1rem;
     }
+
+    .recommandation {
+        padding-right: 0%;
+    }
 }
+
 

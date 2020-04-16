@@ -61,15 +61,6 @@ strong {
 }
 
 
-/*hr {
-    border: none;
-    border-top: 0.2rem solid #00695c;
-    overflow: visible;
-    text-align: left;
-    width: 5rem;
-    margin-top: 0.4rem;
-}*/
-
 /*
     +-------------------------+
     | HEADER : Photo et Titre |
@@ -111,9 +102,9 @@ header {
 }
 
 #profession em {
-        border-bottom: 0.2rem solid #00695c;
-        font-style: normal;
-    }
+    border-bottom: 0.2rem solid #00695c;
+    font-style: normal;
+}
 
 #identite {
     display: flex;
@@ -218,7 +209,6 @@ article {
     display: flex;
     width: 100%;
     border-bottom: 0.2rem solid #00695c;
-    /*border-bottom-color: #00695c;*/
 }
 
  .picto_titre i {
@@ -243,7 +233,6 @@ article ul {
     width: 30%;
     color: #666666;
     padding-right: 4%;
-    font-size: medium;
 }
 
 /* Description*/
@@ -264,7 +253,7 @@ article ul {
 }
 
 
-.description strong, .description p {
+.description strong {
     color: #666666;
     font-size: 1.2rem;
     font-weight: normal;
