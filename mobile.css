@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 1px) and (max-width: 812px) {
     /*en mobile en pass en une seule colonne*/
-    #portrait, aside, #identite, section, article ul, .description{
+    #portrait, aside, #identite, #principal, article ul, .description{
         width: 100%;
     }
 

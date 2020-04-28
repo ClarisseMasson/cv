@@ -144,7 +144,6 @@ aside {
     background-color: #00695c;
     flex-direction: column;
     min-width: 150px;
-    color: #00695c;
     text-align: center;
     justify-content: space-between;
 }
@@ -152,6 +151,7 @@ aside {
  aside h2 {
     background-color: #263238;
     font-weight: bolder;
+    color : #00695c;
     }
 
 aside ul, aside p {
@@ -189,7 +189,7 @@ aside i {
 }
 
 i:before {
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: sub;
 }
 
 /*
@@ -198,7 +198,7 @@ i:before {
     +----------------------------------------------------------------+
 */
 
-section {
+#principal {
     display: flex;
     flex-direction: column;
     padding-left: 4%;
@@ -318,7 +318,7 @@ article ul {
         width: 20%;
     }
 
-    #identite, section {
+    #identite, #principal {
         width: 80%;
     }
 
@@ -342,7 +342,7 @@ article ul {
         width: 30%;
     }
 
-    #identite, section {
+    #identite, #principal {
         width: 70%;
     }
 
